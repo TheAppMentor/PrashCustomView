@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F14DCEA29DAEFFA0079DB72 /* PrashCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */; };
 		32C8CC632C45875204A3E0731C40CC79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		38CCEF5019AD9817139A0E8C66828DDF /* PrashCustomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E6F35A9B6B48070C37524EEAD626EA /* PrashCustomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		551559FC6158D343CD202187A1E78871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		016EA015B9ABF4284EC385225D154EDE /* Pods-PrashCustomView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrashCustomView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0258D2175C654DEB6D845DCF262A5C87 /* PrashCustomView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrashCustomView.release.xcconfig; sourceTree = "<group>"; };
+		2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrashCustomView.swift; sourceTree = "<group>"; };
 		354C8CD8C9BC18529BA5E68378DC23F0 /* PrashCustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrashCustomView-dummy.m"; sourceTree = "<group>"; };
 		3A393E9FF541B8CE2F02837590855FD5 /* Pods-PrashCustomView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrashCustomView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods-PrashCustomView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PrashCustomView_Tests"; path = Pods_PrashCustomView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,19 +40,19 @@
 		5AC25636AFA1823514DC7E2382C7FE6F /* PrashCustomView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PrashCustomView; path = PrashCustomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5319DC7E7BFA36FEA04B3ACCA2EF29 /* PrashCustomView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrashCustomView.debug.xcconfig; sourceTree = "<group>"; };
 		8B6F07AEA484ADD6B50FF19CEEEC1D7A /* Pods-PrashCustomView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrashCustomView_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5586DE86283A3763AB51D476C8EA4B0 /* Pods-PrashCustomView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrashCustomView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B94FBC4F721B5C62960BABBBF3FAA6FB /* PrashCustomView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrashCustomView-Info.plist"; sourceTree = "<group>"; };
 		C0F2E16488B946C36318D9E4E6133765 /* Pods-PrashCustomView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrashCustomView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1A8D20B333F8463A54D5EDC56796139 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PrashCustomView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C1C216F28DA72332755A0D959C8E35DA /* PrashCustomView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PrashCustomView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1C216F28DA72332755A0D959C8E35DA /* PrashCustomView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PrashCustomView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C611EF69FD0604714DF9324E2A82F481 /* Pods-PrashCustomView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrashCustomView_Tests-dummy.m"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D96BE3A9BFAB0434DA87A9FE05A8835A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D96BE3A9BFAB0434DA87A9FE05A8835A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D9830D0A4BCF49EFBDF0F081AF14B35B /* Pods-PrashCustomView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrashCustomView_Tests-Info.plist"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F64D96B2E07EA4182F65EAB011819FA6 /* Pods-PrashCustomView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrashCustomView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F81D8CA2463BC89445491CBCDC9C741F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F81D8CA2463BC89445491CBCDC9C741F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8E6F35A9B6B48070C37524EEAD626EA /* PrashCustomView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrashCustomView-umbrella.h"; sourceTree = "<group>"; };
 		FD64BADA7E78E997C94D23F034A11FA5 /* Pods-PrashCustomView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrashCustomView_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				C1A8D20B333F8463A54D5EDC56796139 /* ReplaceMe.swift */,
+				2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */,
 				7000C595BFA33585A1F953BC289F4C05 /* Pod */,
 				EB6F5EDFD98C599144B3D65D005DCED9 /* Support Files */,
 			);
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F14DCEA29DAEFFA0079DB72 /* PrashCustomView.swift in Sources */,
 				A0D856545C3D105D4E48C8EBA3B4694F /* PrashCustomView-dummy.m in Sources */,
 				8DF2A014B228D64D3E630755A1916AFB /* ReplaceMe.swift in Sources */,
 			);
@@ -537,8 +541,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
