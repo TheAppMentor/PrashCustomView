@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 
-class PrashCustomView : UIView {
-    override init(frame: CGRect) {
+public class PrashCustomView : UIView {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.magenta
     }

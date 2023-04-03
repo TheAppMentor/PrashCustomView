@@ -13,7 +13,6 @@
 		551559FC6158D343CD202187A1E78871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		631F9EBC6F52F2A98BAC8BB41E3B5E56 /* Pods-PrashCustomView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C611EF69FD0604714DF9324E2A82F481 /* Pods-PrashCustomView_Tests-dummy.m */; };
 		7BA794ED212871CC2F1864435575224F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		8DF2A014B228D64D3E630755A1916AFB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8D20B333F8463A54D5EDC56796139 /* ReplaceMe.swift */; };
 		A0D856545C3D105D4E48C8EBA3B4694F /* PrashCustomView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 354C8CD8C9BC18529BA5E68378DC23F0 /* PrashCustomView-dummy.m */; };
 		C52155A7EA7C37527744A473C2C36F8C /* Pods-PrashCustomView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD64BADA7E78E997C94D23F034A11FA5 /* Pods-PrashCustomView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -44,7 +43,6 @@
 		B5586DE86283A3763AB51D476C8EA4B0 /* Pods-PrashCustomView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrashCustomView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B94FBC4F721B5C62960BABBBF3FAA6FB /* PrashCustomView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrashCustomView-Info.plist"; sourceTree = "<group>"; };
 		C0F2E16488B946C36318D9E4E6133765 /* Pods-PrashCustomView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrashCustomView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C1A8D20B333F8463A54D5EDC56796139 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PrashCustomView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C1C216F28DA72332755A0D959C8E35DA /* PrashCustomView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PrashCustomView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C611EF69FD0604714DF9324E2A82F481 /* Pods-PrashCustomView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrashCustomView_Tests-dummy.m"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -133,7 +131,6 @@
 		C35BF367255C2D84D51AF492A160607B /* PrashCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				C1A8D20B333F8463A54D5EDC56796139 /* ReplaceMe.swift */,
 				2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */,
 				7000C595BFA33585A1F953BC289F4C05 /* Pod */,
 				EB6F5EDFD98C599144B3D65D005DCED9 /* Support Files */,
@@ -304,7 +301,6 @@
 			files = (
 				2F14DCEA29DAEFFA0079DB72 /* PrashCustomView.swift in Sources */,
 				A0D856545C3D105D4E48C8EBA3B4694F /* PrashCustomView-dummy.m in Sources */,
-				8DF2A014B228D64D3E630755A1916AFB /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
