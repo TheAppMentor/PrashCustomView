@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/chapparfellow@gmail.com/PrashCustomView'
+  s.homepage         = 'https://github.com/TheAppMentor/PrashCustomView.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chapparfellow@gmail.com' => 'prashanth.moorthy@gmail.com' }
-  s.source           = { :git => 'https://github.com/chapparfellow@gmail.com/PrashCustomView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TheAppMentor/PrashCustomView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'PrashCustomView/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

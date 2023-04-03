@@ -1,0 +1,23 @@
+{
+  "name": "PrashCustomView",
+  "version": "0.1.0",
+  "summary": "A short description of PrashCustomView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TheAppMentor/PrashCustomView.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chapparfellow@gmail.com": "prashanth.moorthy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/TheAppMentor/PrashCustomView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "PrashCustomView/Classes/**/*",
+  "frameworks": "UIKit"
+}

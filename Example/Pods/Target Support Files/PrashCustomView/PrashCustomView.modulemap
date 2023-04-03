@@ -1,0 +1,6 @@
+framework module PrashCustomView {
+  umbrella header "PrashCustomView-umbrella.h"
+
+  export *
+  module * { export * }
+}

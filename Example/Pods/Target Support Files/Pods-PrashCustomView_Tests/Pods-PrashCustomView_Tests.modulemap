@@ -1,0 +1,6 @@
+framework module Pods_PrashCustomView_Tests {
+  umbrella header "Pods-PrashCustomView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

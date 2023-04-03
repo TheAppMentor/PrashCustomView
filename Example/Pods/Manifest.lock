@@ -1,0 +1,16 @@
+PODS:
+  - PrashCustomView (0.1.0)
+
+DEPENDENCIES:
+  - PrashCustomView (from `../`)
+
+EXTERNAL SOURCES:
+  PrashCustomView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrashCustomView: 6a5a318b583b4435ece91fa624658225e0c7f7d4
+
+PODFILE CHECKSUM: 16f31d5241b52fbb22a2fbbeb49f0c48f63846d3
+
+COCOAPODS: 1.11.3
