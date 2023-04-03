@@ -13,6 +13,8 @@ public class PrashCustomView : UIView {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.magenta
+        self.frame = CGRect(origin: .zero, size: CGSize(width: 200, height: 75))
+        
     }
     
     required init?(coder: NSCoder) {
