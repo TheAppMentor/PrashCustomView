@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		16BDAE3AB3832CA4D3DB0C22 /* Pods_PrashCustomView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0B15CAF8830CB7709C4F2 /* Pods_PrashCustomView_Tests.framework */; };
-		2F14DCE629DAE9DF0079DB72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14DCE529DAE9DF0079DB72 /* main.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1125AAA0D4FD7B90768C8B32 /* PrashCustomView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrashCustomView.podspec; path = ../PrashCustomView.podspec; sourceTree = "<group>"; };
-		2F14DCE529DAE9DF0079DB72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1125AAA0D4FD7B90768C8B32 /* PrashCustomView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrashCustomView.podspec; path = ../PrashCustomView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		53818EF7C3FB75526B5FB6C1 /* Pods-PrashCustomView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrashCustomView_Tests.release.xcconfig"; path = "Target Support Files/Pods-PrashCustomView_Tests/Pods-PrashCustomView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* PrashCustomView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrashCustomView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +38,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				2F14DCE529DAE9DF0079DB72 /* main.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -90,7 +87,6 @@
 				EEFC8ABAC3E1FCB08B5E4E61 /* Pods-PrashCustomView_Tests.debug.xcconfig */,
 				53818EF7C3FB75526B5FB6C1 /* Pods-PrashCustomView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -218,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F14DCE629DAE9DF0079DB72 /* main.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +333,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +352,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
