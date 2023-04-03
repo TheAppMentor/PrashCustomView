@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PrashCustomView_Tests' do
+  pod 'PrashCustomView', :path => '../'
+  
+  
+end
