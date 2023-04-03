@@ -101,6 +101,14 @@
 			path = "Target Support Files/Pods-PrashCustomView_Tests";
 			sourceTree = "<group>";
 		};
+		2F14DD0B29DAF3140079DB72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +139,7 @@
 		C35BF367255C2D84D51AF492A160607B /* PrashCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */,
+				2F14DD0B29DAF3140079DB72 /* Classes */,
 				7000C595BFA33585A1F953BC289F4C05 /* Pod */,
 				EB6F5EDFD98C599144B3D65D005DCED9 /* Support Files */,
 			);
