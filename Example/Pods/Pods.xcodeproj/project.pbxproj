@@ -12,6 +12,7 @@
 		2F14DD0F29DB52490079DB72 /* ShelfAuditCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F14DD0E29DB52490079DB72 /* ShelfAuditCellView.xib */; };
 		2F14DD1129DB54F10079DB72 /* SAPFiori.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F14DD1029DB54F10079DB72 /* SAPFiori.xcframework */; };
 		2F14DD1229DB54F10079DB72 /* SAPFiori.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F14DD1029DB54F10079DB72 /* SAPFiori.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2F14DD1829DC2E180079DB72 /* PrashCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F14DD1729DC2E180079DB72 /* PrashCustomView.xib */; };
 		32C8CC632C45875204A3E0731C40CC79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		38CCEF5019AD9817139A0E8C66828DDF /* PrashCustomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E6F35A9B6B48070C37524EEAD626EA /* PrashCustomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		551559FC6158D343CD202187A1E78871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
@@ -55,6 +56,7 @@
 		2F14DD1429DB55130079DB72 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Example; path = ..; sourceTree = "<group>"; };
 		2F14DD1529DB55130079DB72 /* SAPFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFoundation.xcframework; path = ../../SAPFoundation.xcframework; sourceTree = "<group>"; };
 		2F14DD1629DB55130079DB72 /* SAPCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPCommon.xcframework; path = ../../SAPCommon.xcframework; sourceTree = "<group>"; };
+		2F14DD1729DC2E180079DB72 /* PrashCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrashCustomView.xib; sourceTree = "<group>"; };
 		354C8CD8C9BC18529BA5E68378DC23F0 /* PrashCustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrashCustomView-dummy.m"; sourceTree = "<group>"; };
 		3A393E9FF541B8CE2F02837590855FD5 /* Pods-PrashCustomView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrashCustomView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods_PrashCustomView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrashCustomView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */,
+				2F14DD1729DC2E180079DB72 /* PrashCustomView.xib */,
 				2F14DD0C29DB52220079DB72 /* ShelfAuditCellView.swift */,
 				2F14DD0E29DB52490079DB72 /* ShelfAuditCellView.xib */,
 			);
@@ -321,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F14DD1829DC2E180079DB72 /* PrashCustomView.xib in Resources */,
 				2F14DD0F29DB52490079DB72 /* ShelfAuditCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

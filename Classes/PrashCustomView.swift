@@ -14,10 +14,14 @@ public class PrashCustomView : UIView {
         super.init(frame: frame)
         self.backgroundColor = UIColor.magenta
         self.frame = CGRect(origin: .zero, size: CGSize(width: 200, height: 75))
-        
     }
     
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: coder)
+        self.backgroundColor = UIColor.green
+        self.frame = CGRect(origin: .zero, size: CGSize(width: 200, height: 75))
+        
+        let shelfAuditView = Bundle.loadView(fromNib: "ShelfAuditCellView", withType: ShelfAuditCellView.self)
+        addSubview(shelfAuditView)
     }
 }

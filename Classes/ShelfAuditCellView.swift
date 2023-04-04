@@ -17,7 +17,7 @@ public class ShelfAuditCellView: UIView {
     }
     */
     
-    override required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
         let view = Bundle.loadView(fromNib: "ShelfAuditCellView", withType: ShelfAuditCellView.self)
         view.addSubview(view)
