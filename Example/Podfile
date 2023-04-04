@@ -2,6 +2,7 @@ use_frameworks!
 platform :ios, '13.0'
 target 'PrashCustomView_Tests' do
   pod 'PrashCustomView', :path => '../'
-  
-  
 end
+
+s.resource_bundles = {
+    'PrashCustomView' => ['PrashCustomView/*/*.{xib,storyboard,xcassets}'] }

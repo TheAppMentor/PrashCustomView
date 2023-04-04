@@ -20,6 +20,12 @@ public class ShelfAuditCellView: UIView {
     
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
+        
+        let frameworkBundle = Bundle(for: ShelfAuditCellView.self)
+        let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("ShelfAuditCellView.bundle")
+        let resourceBundle = Bundle(url: bundleURL!)
+        print("resourceBundle: \(resourceBundle)")
+        
         let view = Bundle.loadView(fromNib: "ShelfAuditCellView", withType: ShelfAuditCellView.self)
         view.addSubview(view)
     }
