@@ -24,7 +24,6 @@ public class ShelfAuditCellView: UIView {
     }
 }
 
-
 extension Bundle {
 
     static func loadView<T>(fromNib name: String, withType type: T.Type) -> T {
