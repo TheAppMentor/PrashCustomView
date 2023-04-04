@@ -14,8 +14,20 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="590" height="160"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZXL-PX-St1" customClass="ShelfAuditCellView" customModule="PrashCustomView" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="590" height="160"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ZXL-PX-St1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ElH-GE-8PO"/>
+                <constraint firstAttribute="bottom" secondItem="ZXL-PX-St1" secondAttribute="bottom" id="deD-Jz-TzZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ZXL-PX-St1" secondAttribute="trailing" id="eWm-BC-enw"/>
+                <constraint firstItem="ZXL-PX-St1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="kzc-uA-w81"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="167.93893129770993" y="-223.94366197183101"/>
         </view>

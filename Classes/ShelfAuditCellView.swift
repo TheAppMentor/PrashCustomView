@@ -7,6 +7,7 @@
 
 import UIKit
 
+@IBDesignable
 public class ShelfAuditCellView: UIView {
 
     /*
