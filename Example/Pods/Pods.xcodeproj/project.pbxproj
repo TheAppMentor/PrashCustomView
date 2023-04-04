@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2F14DCEA29DAEFFA0079DB72 /* PrashCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */; };
+		2F14DD0D29DB52220079DB72 /* ShelfAuditCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F14DD0C29DB52220079DB72 /* ShelfAuditCellView.swift */; };
+		2F14DD0F29DB52490079DB72 /* ShelfAuditCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F14DD0E29DB52490079DB72 /* ShelfAuditCellView.xib */; };
+		2F14DD1129DB54F10079DB72 /* SAPFiori.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F14DD1029DB54F10079DB72 /* SAPFiori.xcframework */; };
+		2F14DD1229DB54F10079DB72 /* SAPFiori.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F14DD1029DB54F10079DB72 /* SAPFiori.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		32C8CC632C45875204A3E0731C40CC79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		38CCEF5019AD9817139A0E8C66828DDF /* PrashCustomView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E6F35A9B6B48070C37524EEAD626EA /* PrashCustomView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		551559FC6158D343CD202187A1E78871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
@@ -27,13 +31,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2F14DD1329DB54F10079DB72 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2F14DD1229DB54F10079DB72 /* SAPFiori.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		016EA015B9ABF4284EC385225D154EDE /* Pods-PrashCustomView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrashCustomView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0258D2175C654DEB6D845DCF262A5C87 /* PrashCustomView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrashCustomView.release.xcconfig; sourceTree = "<group>"; };
 		2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrashCustomView.swift; sourceTree = "<group>"; };
+		2F14DD0C29DB52220079DB72 /* ShelfAuditCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfAuditCellView.swift; sourceTree = "<group>"; };
+		2F14DD0E29DB52490079DB72 /* ShelfAuditCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShelfAuditCellView.xib; sourceTree = "<group>"; };
+		2F14DD1029DB54F10079DB72 /* SAPFiori.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFiori.xcframework; path = ../../SAPFiori.xcframework; sourceTree = "<group>"; };
+		2F14DD1429DB55130079DB72 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Example; path = ..; sourceTree = "<group>"; };
+		2F14DD1529DB55130079DB72 /* SAPFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPFoundation.xcframework; path = ../../SAPFoundation.xcframework; sourceTree = "<group>"; };
+		2F14DD1629DB55130079DB72 /* SAPCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAPCommon.xcframework; path = ../../SAPCommon.xcframework; sourceTree = "<group>"; };
 		354C8CD8C9BC18529BA5E68378DC23F0 /* PrashCustomView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrashCustomView-dummy.m"; sourceTree = "<group>"; };
 		3A393E9FF541B8CE2F02837590855FD5 /* Pods-PrashCustomView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrashCustomView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods-PrashCustomView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PrashCustomView_Tests"; path = Pods_PrashCustomView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods_PrashCustomView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrashCustomView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9D6D4D98E7DE111133E6501004CCE2 /* PrashCustomView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrashCustomView.modulemap; sourceTree = "<group>"; };
 		4C3983EA4E1DA0D50EE22431A70A7560 /* PrashCustomView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrashCustomView-prefix.pch"; sourceTree = "<group>"; };
 		5AC25636AFA1823514DC7E2382C7FE6F /* PrashCustomView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PrashCustomView; path = PrashCustomView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F14DD1129DB54F10079DB72 /* SAPFiori.xcframework in Frameworks */,
 				551559FC6158D343CD202187A1E78871 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +104,10 @@
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F14DD1429DB55130079DB72 /* Example */,
+				2F14DD1629DB55130079DB72 /* SAPCommon.xcframework */,
+				2F14DD1529DB55130079DB72 /* SAPFoundation.xcframework */,
+				2F14DD1029DB54F10079DB72 /* SAPFiori.xcframework */,
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
@@ -105,6 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				2F14DCE929DAEFFA0079DB72 /* PrashCustomView.swift */,
+				2F14DD0C29DB52220079DB72 /* ShelfAuditCellView.swift */,
+				2F14DD0E29DB52490079DB72 /* ShelfAuditCellView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,7 +192,7 @@
 		D95A8D4F2193C6996ED28536A3250F0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods-PrashCustomView_Tests */,
+				487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods_PrashCustomView_Tests.framework */,
 				5AC25636AFA1823514DC7E2382C7FE6F /* PrashCustomView */,
 			);
 			name = Products;
@@ -220,6 +251,7 @@
 				718EA9C352868EDB58D0232F8C854E63 /* Sources */,
 				5180F6AC985C6C8D5092253213453882 /* Frameworks */,
 				4C743A1649FBD3DBEF91B53F49E77EEB /* Resources */,
+				2F14DD1329DB54F10079DB72 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,7 +260,7 @@
 			);
 			name = "Pods-PrashCustomView_Tests";
 			productName = Pods_PrashCustomView_Tests;
-			productReference = 487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods-PrashCustomView_Tests */;
+			productReference = 487A9E28F5D8D81B1BD2AAA53089A2B0 /* Pods_PrashCustomView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7F6F2662A14BB2DCB6CFE7E6F3AAF4B4 /* PrashCustomView */ = {
@@ -289,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F14DD0F29DB52490079DB72 /* ShelfAuditCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F14DD0D29DB52220079DB72 /* ShelfAuditCellView.swift in Sources */,
 				2F14DCEA29DAEFFA0079DB72 /* PrashCustomView.swift in Sources */,
 				A0D856545C3D105D4E48C8EBA3B4694F /* PrashCustomView-dummy.m in Sources */,
 			);
@@ -342,7 +376,11 @@
 				INFOPLIST_FILE = "Target Support Files/PrashCustomView/PrashCustomView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/PrashCustomView/PrashCustomView.modulemap";
 				PRODUCT_MODULE_NAME = PrashCustomView;
 				PRODUCT_NAME = PrashCustomView;
@@ -374,7 +412,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-PrashCustomView_Tests/Pods-PrashCustomView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrashCustomView_Tests/Pods-PrashCustomView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -409,7 +451,11 @@
 				INFOPLIST_FILE = "Target Support Files/PrashCustomView/PrashCustomView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/PrashCustomView/PrashCustomView.modulemap";
 				PRODUCT_MODULE_NAME = PrashCustomView;
 				PRODUCT_NAME = PrashCustomView;
@@ -545,7 +591,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -569,7 +616,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-PrashCustomView_Tests/Pods-PrashCustomView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PrashCustomView_Tests/Pods-PrashCustomView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
