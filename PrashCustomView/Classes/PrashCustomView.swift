@@ -8,8 +8,13 @@
 import Foundation
 import UIKit
 
-
+@objcMembers
 public class PrashCustomView : UIView {
+    
+    public static func prashStaticMethod() -> String {
+        return "Hello Static Method Talking"
+    }
+    
     public override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.magenta
@@ -32,7 +37,7 @@ public class PrashCustomView : UIView {
         addSubview(shelfAuditView)
     }
     
-    func getMyCustomView() -> UIView {
+    public func getMyCustomView() -> UIView {
         let frameworkBundle = Bundle(for: ShelfAuditCellView.self)
         let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("ShelfAuditCellView.bundle")
         let resourceBundle = Bundle(url: bundleURL!)
